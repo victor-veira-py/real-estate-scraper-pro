@@ -1,0 +1,39 @@
+# 🔐 Variables de entorno
+.env
+
+# 🐍 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🧪 Entornos virtuales
+venv/
+env/
+.venv/
+
+# 📊 Archivos generados (EXPORTS)
+exports/
+*.xlsx
+
+# 🧠 IDE
+.idea/
+.vscode/
+
+# 🧾 Logs
+*.log
+
+# 🖥️ Sistema
+.DS_Store
+Thumbs.db
+
+# 🗄️ Base de datos
+*.db
+
+# 📦 Archivos temporales
+*.tmp
+
+# 🔐 Entornos ocultos adicionales
+.env.*
+
+debug_page.html

@@ -1,0 +1,9 @@
+pandas
+requests
+beautifulsoup4
+lxml
+matplotlib
+openpyxl
+xlsxwriter
+python-dotenv
+flask
