@@ -16,23 +16,23 @@ It automates data extraction, stores it in a structured database, generates repo
 
 ## ✨ Features
 
-* 🔎 Web scraping (Zumper)
-* 🗄️ SQLite database
-* 📊 Excel reports with historical tracking
-* 📈 Chart generation (PNG)
-* 📧 Email automation (TLS)
-* 🧹 Data cleanup tools
-* 🌐 Flask dashboard
-* 🧩 Modular architecture
+- 🔎 Web scraping (Zumper)
+- 🗄️ SQLite database
+- 📊 Excel reports with historical tracking
+- 📈 Chart generation (PNG)
+- 📧 Email automation (TLS)
+- 🧹 Data cleanup tools
+- 🌐 Flask dashboard
+- 🧩 Modular architecture
 
 ---
 
 ## 🏗️ System Architecture
 
-| Component | Responsibility                              |
-| --------- | ------------------------------------------- |
+| Component | Responsibility |
+|----------|----------------|
 | `main.py` | Data processing, scraping, reports, cleanup |
-| `app.py`  | Visualization and report interaction        |
+| `app.py` | Visualization and report interaction |
 
 ---
 
@@ -44,38 +44,34 @@ It automates data extraction, stores it in a structured database, generates repo
 python main.py
 ```
 
-* Select language (EN/ES)
-* Choose option **[1] Scan Data**
-* Enter a city (miami, tampa, etc.)
+- Select language (EN/ES)
+- Choose option **[1] Scan Data**
+- Enter a city (miami, tampa, etc.)
 
 👉 System will:
-
-* Scrape data (Selenium)
-* Parse HTML (BeautifulSoup)
-* Store data in SQLite
+- Scrape data (Selenium)
+- Parse HTML (BeautifulSoup)
+- Store data in SQLite
 
 ---
 
 ### Step 2 — Generate Reports
 
-Select:
-
 ```
 [2] Generate Reports
 ```
-
 👉 System generates:
 
-* Excel file
-* Market chart (PNG)
-* Listings chart (PNG)
+- Excel file
+- Market chart (PNG)
+- Listings chart (PNG)
 
 ---
 
 ### Step 3 — Send Reports (Optional)
 
-* `[5]` → Send report for ONE city
-* `[6]` → Send ALL reports
+- `[5]` → Send report for ONE city  
+- `[6]` → Send ALL reports  
 
 ---
 
@@ -121,8 +117,7 @@ Select:
 ---
 
 ### 📄 Excel Report
-
-![excel\_report](screenshots/excel_report.png)
+![excel_report](screenshots/excel_report.png)
 
 ---
 
@@ -148,10 +143,13 @@ Select:
 
 * No UPDATE
 * Only INSERT
-
 ---
 
-## 📧 Email Configuration
+## 📄 Environment Configuration
+
+This project uses environment variables for sensitive data.
+
+### `.env.example`
 
 ```env
 EMAIL_USER=
@@ -161,12 +159,16 @@ SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=587
 ```
 
+⚠️ Important:
+- Never upload your real `.env` file
+- Always use `.env.example` as reference
+
 ---
 
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/real-estate-scraper-pro.git
+git clone https://github.com/victor-veira-py/real-estate-scraper-pro.git
 cd real-estate-scraper-pro
 python -m venv venv
 venv\Scripts\activate
@@ -190,28 +192,38 @@ http://127.0.0.1:5000/
 
 ---
 
+## 🚀 Future Improvements
+
+- Docker containerization  
+- Automated scheduled scraping (cron jobs)  
+- Multi-city batch processing optimization  
+- Advanced dashboard filters and analytics  
+- Authentication system for dashboard  
+
+---
+
 ## 🛠️ Technologies
 
-* Python
-* Selenium
-* BeautifulSoup
-* SQLite
-* Pandas
-* Matplotlib
-* Flask
-* python-dotenv
+- Python  
+- Selenium  
+- BeautifulSoup  
+- SQLite  
+- Pandas  
+- Matplotlib  
+- Flask  
+- python-dotenv  
 
 ---
 
 ## 👨‍💻 Author
 
-Víctor Armando De Oliveira Rodríguez
+Víctor Armando De Oliveira Rodríguez  
 
 ---
 
 ## 📌 License
 
-MIT License
+MIT License  
 
 ---
 
@@ -219,34 +231,34 @@ MIT License
 
 ## 🚀 Descripción
 
-**Real Estate Scraper Pro** es un sistema profesional en Python para **scraping, análisis, reportes y visualización de datos inmobiliarios**.
+**Real Estate Scraper Pro** es un sistema profesional en Python para scraping, análisis, reportes y visualización de datos inmobiliarios.
 
 ---
 
 ## ✨ Funcionalidades
 
-* 🔎 Scraping desde Zumper
-* 🗄️ Base de datos SQLite
-* 📊 Excel con historial
-* 📈 Gráficos PNG
-* 📧 Envío de correos (TLS)
-* 🧹 Limpieza de datos
-* 🌐 Dashboard Flask
+- 🔎 Scraping desde Zumper
+- 🗄️ Base de datos SQLite
+- 📊 Excel con historial
+- 📈 Gráficos PNG
+- 📧 Envío de correos (TLS)
+- 🧹 Limpieza de datos
+- 🌐 Dashboard Flask
 
 ---
 
 ## 🏗️ Arquitectura
 
-| Componente | Función                           |
-| ---------- | --------------------------------- |
-| `main.py`  | Scraping, procesamiento, reportes |
-| `app.py`   | Visualización                     |
+| Componente | Función |
+|----------|--------|
+| `main.py` | Scraping, procesamiento, reportes |
+| `app.py` | Visualización |
 
 ---
 
 ## 🔄 Flujo REAL
 
-### Paso 1 — Ejecutar sistema
+### Paso 1 - Ejecutar sistema
 
 ```bash
 python main.py
@@ -258,7 +270,7 @@ python main.py
 
 ---
 
-### Paso 2 — Generar reportes
+### Paso 2
 
 ```
 [2] Generar Reportes
@@ -281,13 +293,13 @@ Genera:
 ## 🧠 Menú
 
 ```
-[1] Escanear  
-[2] Reportes  
-[3] Limpiar archivos  
-[4] Vaciar DB  
-[5] Enviar uno  
-[6] Enviar todo  
-[0] Salir  
+[1] Escanear
+[2] Reportes
+[3] Limpiar archivos
+[4] Vaciar DB
+[5] Enviar uno
+[6] Enviar todo
+[0] Salir
 ```
 
 ⚠️ Importante:
@@ -326,17 +338,38 @@ Genera:
 
 ## 📄 Excel
 
-* `Daily Results` → Datos del día
-* `Historical Data` → Historial completo
+- Daily Results → datos actuales  
+- Historical Data → historial completo  
 
-⚠️ Solo INSERT (no UPDATE)
+⚠️ Solo INSERT (sin UPDATE)
 
----
+--- 
+
+## 📄 Configuración de Entorno
+
+Este proyecto utiliza variables de entorno para manejar información sensible.
+
+### `.env.example`
+
+```env
+EMAIL_USER=
+EMAIL_PASSWORD=
+EMAIL_RECEIVER=
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+```
+
+⚠️ Importante:
+- Nunca subas tu archivo real `.env`
+- Usa siempre `.env.example` como referencia
+- El archivo `.env` contiene credenciales sensibles y debe mantenerse privado
+
+--- 
 
 ## ⚙️ Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/real-estate-scraper-pro.git
+git clone https://github.com/victor-veira-py/real-estate-scraper-pro.git
 cd real-estate-scraper-pro
 python -m venv venv
 venv\Scripts\activate
@@ -346,12 +379,22 @@ python main.py
 
 ---
 
+## 🚀 Futuras Mejoras
+
+- Docker  
+- Automatización con cron  
+- Multi-ciudad optimizado  
+- Filtros avanzados en dashboard  
+- Sistema de autenticación  
+
+---
+
 ## 💯 Autor
 
-Víctor Armando De Oliveira Rodríguez
+Víctor Armando De Oliveira Rodríguez  
 
 ---
 
 ## 📌 Licencia
 
-MIT
+MIT License  
