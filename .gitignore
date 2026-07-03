@@ -35,5 +35,6 @@ Thumbs.db
 
 # 🔐 Entornos ocultos adicionales
 .env.*
+!.env.example
 
 debug_page.html
