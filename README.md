@@ -166,7 +166,7 @@ SMTP_PORT=587
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/real-estate-scraper-pro.git
+git clone https://github.com/victor-veira-py/real-estate-scraper-pro.git
 cd real-estate-scraper-pro
 python -m venv venv
 venv\Scripts\activate
@@ -336,7 +336,7 @@ Genera:
 ## ⚙️ Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/real-estate-scraper-pro.git
+git clone https://github.com/victor-veira-py/real-estate-scraper-pro.git
 cd real-estate-scraper-pro
 python -m venv venv
 venv\Scripts\activate
