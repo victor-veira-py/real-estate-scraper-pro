@@ -1,7 +1,12 @@
 # 🏠 Real Estate Scraper Pro
 
-[🇺🇸 English](#-english-version) | [🇪🇸 Español](#-versión-en-español)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20App-black)
+![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
+[🇺🇸 English](#-english-version) | [🇪🇸 Español](#-versión-en-español)
 ---
 
 # 🇺🇸 English Version
@@ -312,25 +317,30 @@ Genera:
 
 ### 📊 Gráficos
 
+**Gráfico de Listados Detallados**
 ![chart\_detailed](screenshots/chart_detailed.png)
+
+****Gráfica por Número de Habitaciones/Camas****
 ![chart\_grouped](screenshots/chart_grouped.png)
 
 ---
 
 ### 🖥️ Consola
 
+**Proceso de Scraping**
 ![console\_process](screenshots/console_process.png)
+
+**Resultados Exitosos**
 ![console\_success](screenshots/console_success.png)
 
 ---
 
-### 📄 Excel
-
+### 📄 Reporte en Excel
 ![excel\_report](screenshots/excel_report.png)
 
 ---
 
-### 🌐 Dashboard
+### 🌐 Dashboard Web
 
 ![web\_dashboard](screenshots/web_dashboard.png)
 
